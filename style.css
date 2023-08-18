@@ -1,0 +1,50 @@
+body {
+    background-color: brown;
+}
+#main_title {
+    color: yellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin-top: 0px;
+}
+#title_box {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+#blog_box {
+    background-color: peachpuff;
+    padding-bottom: 370px;
+    overflow: auto;
+}
+#input_box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.text {
+    color: yellow;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+}
+.input {
+    overflow: auto;
+}
+#button_box {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#submit {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: yellow;
+    color: brown;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
